@@ -8,14 +8,29 @@ export default createGlobalStyle `
 		outline: 0;
 	}
 
+	html, body, #root {
+		height: 100%
+	}
+
 	body {
 		background: #312E38;
 		color: #FFF;
 		-webkit-font-smoothing: antialiased;
+		/* min-height: 100%; */
 	}
 
 	button {
 		cursor: pointer;
+	}
+
+	input, button {
+		border: 0;
+		outline: 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
 	}
 	
 	// específicas da aplicação
